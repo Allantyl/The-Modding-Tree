@@ -90,7 +90,7 @@ addLayer("f", {
         done() { return player.f.points.gte(15) }
     }
     
-}
+}}
 
 })    
 
