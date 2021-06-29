@@ -24,5 +24,9 @@ addLayer("p", {
     hotkeys: [
         {key: "p", description: "P: Pack for packages", onPress(){if (canReset(this.layer)) doReset(this.layer)}},
     ],
-    layerShown(){return true}
+    layerShown(){return true},
+	    upgrades: {
+
+    },
+
 })
