@@ -32,8 +32,8 @@ addLayer("p", {
                      title: "More Products",
                      description: "Deliver 5 pack to your customer to double your products gain.",
                      cost: new Decimal(5),
-
                  },
+                 
 
     },
 
