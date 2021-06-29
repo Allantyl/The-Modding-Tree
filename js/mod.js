@@ -13,11 +13,13 @@ let modInfo = {
 
 // Set your version in num and name
 let VERSION = {
-	num: "0.0001",
-	name: "The First Update",
+	num: "0.001",
+	name: "The New Layer Update",
 }
 
 let changelog = `<h1>Changelog:</h1><br>
+        <h3>v0.001</h3><br>
+.               - Added the factory layer.<br>
         <h3>v0.0001</h3><br>
                 - Added the first upgrade one to three.<br>
 	<h3>v0.00001</h3><br>
