@@ -44,6 +44,10 @@ addLayer("p", {
                      cost: new Decimal(100),
                  },
              }, 
+	})
+	
+	
+	
 addLayer("f", {
     name: "factory", // This is optional, only used in a few places, If absent it just uses the layer id.
     symbol: "F", // This appears on the layer's node. Default is the id with the first letter capitalized
@@ -73,5 +77,5 @@ addLayer("f", {
     layerShown(){return true}
 })    
 
-})
+
 
