@@ -33,7 +33,7 @@ addLayer("p", {
                      description: "Double your products gain.",
                      cost: new Decimal(1),
 
-        },
+                 },
 
     },
 
