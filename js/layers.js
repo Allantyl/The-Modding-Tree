@@ -41,7 +41,7 @@ addLayer("p", {
                  13: {
                      title: "Whats To Do",
                      description: "Deliver 100 pack to your customer to unlock a layer.",
-                     cost: new Decimal(20),
+                     cost: new Decimal(100),
                  },
              }, 
     
