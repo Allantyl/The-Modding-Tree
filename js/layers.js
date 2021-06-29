@@ -83,7 +83,7 @@ addLayer("f", {
     }
     
 },
-        milestones: {
+
     1: {
         requirementDescription: "15 factories",
         effectDescription: "Unlock a new layer. Comning Soon...",
