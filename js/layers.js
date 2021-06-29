@@ -30,8 +30,8 @@ addLayer("p", {
 		cols: 1,
                  11: {
                      title: "More Products",
-                     description: "Double your products gain.",
-                     cost: new Decimal(1),
+                     description: "Deliver 5 pack to your customer to double your products gain.",
+                     cost: new Decimal(5),
 
                  },
 
