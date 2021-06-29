@@ -18,8 +18,10 @@ let VERSION = {
 }
 
 let changelog = `<h1>Changelog:</h1><br>
+        <h3>v0.0001</h3><br>
+                - Added the first upgrade one to three.<br>
 	<h3>v0.00001</h3><br>
-		- Added some upgrades.<br>
+		- Added the factory.<br>
 		- Added stuff.`
 
 let winText = `Congratulations! You have reached the end and beaten this game, but for now...`
