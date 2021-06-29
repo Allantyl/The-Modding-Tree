@@ -74,7 +74,24 @@ addLayer("f", {
     hotkeys: [
         {key: "f", description: "F: Construct for factories.", onPress(){if (canReset(this.layer)) doReset(this.layer)}},
     ],
-    layerShown(){return true}
+    layerShown(){return true},
+	milestones: {
+    0: {
+        requirementDescription: "8 factories",
+        effectDescription: "Keep Product upgrades on reset.",
+        done() { return player.f.points.gte(8) }
+    }
+    
+},
+        milestones: {
+    1: {
+        requirementDescription: "15 factories",
+        effectDescription: "Unlock a new layer. Comning Soon...",
+        done() { return player.f.points.gte(15) }
+    }
+    
+}
+
 })    
 
 
