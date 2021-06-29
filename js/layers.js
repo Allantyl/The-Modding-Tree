@@ -27,7 +27,7 @@ addLayer("p", {
     layerShown(){return true},
 	    upgrades: {
 		rows: 1,
-		cols: 2,
+		cols: 3,
                  11: {
                      title: "More Products",
                      description: "Deliver 5 pack to your customer to double your products gain.",
@@ -38,7 +38,11 @@ addLayer("p", {
                      description: "Deliver 20 pack to your customer to double your packages gain.",
                      cost: new Decimal(20),
                  },
-                 
+                 13: {
+                     title: "Whats To Do",
+                     description: "Deliver 100 pack to your customer to unlock a layer.",
+                     cost: new Decimal(20),
+                 },
              }, 
     
 
