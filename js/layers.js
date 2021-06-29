@@ -26,8 +26,8 @@ addLayer("p", {
     ],
     layerShown(){return true},
 	    upgrades: {
-		rows: 2,
-		cols: 1,
+		rows: 1,
+		cols: 2,
                  11: {
                      title: "More Products",
                      description: "Deliver 5 pack to your customer to double your products gain.",
