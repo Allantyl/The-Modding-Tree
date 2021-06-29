@@ -26,12 +26,17 @@ addLayer("p", {
     ],
     layerShown(){return true},
 	    upgrades: {
-		rows: 1,
+		rows: 2,
 		cols: 1,
                  11: {
                      title: "More Products",
                      description: "Deliver 5 pack to your customer to double your products gain.",
                      cost: new Decimal(5),
+                 },
+		 12: {
+                     title: "More Pack Done",
+                     description: "Deliver 20 pack to your customer to double your packages gain.",
+                     cost: new Decimal(20),
                  },
                  
              }, 
