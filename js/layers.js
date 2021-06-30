@@ -94,6 +94,6 @@ addLayer("f", {
 }
 	 
 })    
-//Can someone help me to fix it?, I don't see the layers
+//Can someone help me to fix it?, I don't see the layers and i'm getting a error
 
 
