@@ -59,7 +59,7 @@ addLayer("f", {
     color: "#675C63",
     requires: new Decimal(100), // Can be a function that takes requirement increases into account
     resource: "factories", // Name of prestige currency
-    baseResource: "package", // Name of resource prestige is based on
+    baseResource: "points", // Name of resource prestige is based on
     baseAmount() {return player.points}, // Get the current amount of baseResource
     type: "normal", // normal: cost to gain currency depends on amount gained. static: cost depends on how much you already have
     exponent: 0.5, // Prestige currency exponent
@@ -70,7 +70,7 @@ addLayer("f", {
     gainExp() { // Calculate the exponent on main currency from bonuses
         return new Decimal(1)
     },
-    row: 1, // Row the layer is in on the tree (0 is the first row)
+    row: 0, // Row the layer is in on the tree (0 is the first row)
     hotkeys: [
         {key: "f", description: "F: Construct for factories.", onPress(){if (canReset(this.layer)) doReset(this.layer)}},
     ],
@@ -86,7 +86,7 @@ addLayer("f", {
 
     1: {
         requirementDescription: "15 factories",
-        effectDescription: "Unlock a new layer. Comning Soon...",
+        effectDescription: "Unlock a new layer. Coming Soon...",
         done() { return player.f.points.gte(15) }
     }
     
